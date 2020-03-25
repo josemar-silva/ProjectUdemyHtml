@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+div#corpo{
+    background-color: #ccc;
+    margin-top: 0px 0px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}   
+
+header#cabecalho{
+    text-align: center;
+    height: 500px;
+    background-image: url(../imagens/bg-3.jpg);
+    background-size: cover;
+    background-position: right center; 
+    border: 1px 1px 1px 1px solid cccc;
+    margin-bottom: 5px;
+}
+
+header#cabecalho h1{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 120px;
+    padding: 10px;
+    font-size: 60px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, .8);
+    text-transform: uppercase;   
+}
+
+header#cabecalho p{
+    margin-top: 0px;
+    background-color: rgba(0, 0, 0, .7);
+    padding: 10px;
+    color: white;
+    border-bottom:2px solid white;
+    font-size: 15px;
+    width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+nav#menu ol{
+    text-align: right;
+    margin-right: 20px;
+}
+
+nav#menu li{
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: sans-serif;
+    background-color: #888888;
+    border: 1px solid white;
+    margin-right: 5px;
+    margin-top: 20px;   
+}
+
+nav#menu li a{
+    display: inline-block;
+    text-decoration: none;
+    color: white
+}
+
+nav#menu li:hover{
+    background-color: #5d5757;
+}
+
+div.figura{
+    margin: 5px 5px 5px 10px;
+    display: inline-block;
+    background-color: white; 
+}
+
+img{
+    width: 100%;  
+}
+
+div.figura p{
+    background-color: #5d5757;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#secao{
+    
+    padding: 5px;
+    background-color: white;
+    width: 61%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 0px;   
+}
+
+article#artigo{
+    margin-top: 5px;
+    width: 60%;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+}
+
+article#artigo h2{
+    margin-top: 5px;
+    text-indent: 10px;
+    background-color: rgb(224, 221, 221);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .5);
+    padding: 5px;
+    width: 99%;
+}
+
+#rodape{
+    background-color: #888888;
+    text-align: center;
+    padding: 20px;
+}
